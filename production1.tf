@@ -7,8 +7,8 @@ provider "azurerm" {
 }
 
 # Create a resource group
-resource "azurerm_resource_group" "test" {
-  name     = "production1"
+resource "azurerm_resource_group" "myterraformgroup" {
+  name     = "terraformrg"
   location = "South India"
 } 
  
